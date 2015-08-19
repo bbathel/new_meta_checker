@@ -1,14 +1,4 @@
-<h1>Meta: <%= @meta_checker %></h1>
+<h1>Meta:</h1>
 <h1>Input:<%= @input %></h1>
-<h2>Output: <%= @requested_meta %></h2>
-<h2>Gdoc: <%= @gdoc_key  %></h2>
-<table>
-<%= @gdoc.num_rows %>
-<% (1..@gdoc.num_rows).each do |row| %>
-  <tr>
-  <%(1..@gdoc.num_cols).each do |col|%>
-    <td><%= @gdoc[row, col] %></td>
-  <%end%>
-  </tr> 
-<%end%>
-</table>
+<h1>Scanner: <%= @scanner.gdoc %></h1>
+<h1>File: <%= @scanner.file %></h1>

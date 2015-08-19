@@ -1,0 +1,6 @@
+1. Get the input from the user
+  a. get the sheet
+    i. decide if it's a titles and meta and stuff
+      1. get those urls and check return the meta from the document compared to the meta from the site.
+    ii. image optz
+      1. get those urls find the images and compare the fetched alt and title text to the corresponding alt and title text from the sheet.
